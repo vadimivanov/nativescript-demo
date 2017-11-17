@@ -1,0 +1,13 @@
+<ActionBar title="Groceries">
+</ActionBar>
+<GridLayout rows="auto,*">
+
+    <ScrollView #scrollView row="1" class="content">
+        <StackLayout>
+            <TextView text="Home"></TextView>
+        </StackLayout>
+    </ScrollView>
+
+    <ActivityIndicator *ngIf="isLoading " [busy]="isLoading " class="activity-indicator "></ActivityIndicator>
+
+</GridLayout>

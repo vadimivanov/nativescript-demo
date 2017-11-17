@@ -1,0 +1,10 @@
+/node_modules
+/.idea
+/dist
+/docs
+*.map
+*.rar
+*.zip
+package-lock.json
+
+/build/preloadContent.min.js
